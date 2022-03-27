@@ -21,7 +21,7 @@
                     if($password_kamu == 'admin'){
      
                         $_SESSION['admin'] = $username;
-                        header('location: formuser2');
+                        header('location: formuser2.php');
      
                     }else{
                         header("location:index.php?pesan=gagal");
