@@ -71,7 +71,7 @@
                             <br><label>Total</label>
                             <input type="text" name="total" value="<?= number_format("{$_SESSION['total']}", 2, ",", ".") ?>" placeholder="0" readonly>
 
-                            <a href="logout.php"><input type="button" name="logout" value="logout"></a>
+                            <a href="logout.php"><input class="logout" type="button" name="logout" value="logout" ></a>
                         </div>
                 </div>
                 </form>
